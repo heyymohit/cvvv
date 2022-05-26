@@ -1,0 +1,107 @@
+div {
+    background-color: white;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px; /***16px=100%=1em***//**pixels are static so it doesnt change if the font size is changed in the browser but em and % values are dynamic so it gets adjusted according to the browser settings**/
+    color: #66bfbf;
+    line-height: 2; /**specifies the height of line**//**1 is default so 2 is double**/
+}
+h2 {
+    font-family: 'Montdserrat', sans-serif;
+    font-size: 2.5rem; /**'r'em is used when there's a font size mentioned in body (parent tag) so it doesnt get mixed up. it is only used in case of em and %.**/
+    color: #66bfbf;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montdserrat', sans-serif;
+    color: #11999E;
+}
+h6 {
+    margin-bottom: 0px;
+}
+hr {
+    border-style: dotted none none none;
+    border-color: #aca7a7;
+    width: 6%;
+    height: 0px;
+    border-width: 5px;
+}
+.topcontainer {
+    padding: 5%;
+    background-color: #E4F9F5;
+}
+.bottomcloud {
+    position: absolute;
+}
+.bottom-container {
+    background-color: #66bfbf;
+}
+.topcloud {
+    position: relative;
+    left: 300px;
+}
+.profile {
+    margin: 120px 0 120px 0;
+}
+.skills {
+    margin-top: 100px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 150px auto; /**1st position is for top then right then bottom and then left (clockwise)**/
+    text-align: left;
+}
+.Pic1 {
+    float: left; /**to align the text below the picture in its left side**//**anti float is known as clear. for a removing float we use 'clear' tag**/
+    margin-right: 30px;
+}
+.Pic2 {
+    float: right;
+    margin-left: 20px;
+}
+.contact-me {
+    margin: 100px 0 30px 0;
+}
+.footer-link {
+    color: #11999E;
+}
+.copyright {
+    color: white;
+}
+.attribute {
+    color: black;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
